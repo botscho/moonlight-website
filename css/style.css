@@ -1671,7 +1671,7 @@ body {
 .mobile-menu-toggle {
     display: none;
     position: fixed;
-    top: 1rem;
+    top: 1.5rem;
     left: 1rem;
     z-index: 1001;
     background: linear-gradient(135deg, var(--neon-pink), var(--neon-yellow));
@@ -1701,6 +1701,7 @@ body {
     background: var(--dark-bg);
     border-radius: 2px;
     transition: all 0.3s ease;
+    display: block;
 }
 
 .mobile-menu-toggle.active .hamburger-line:nth-child(1) {
@@ -1768,6 +1769,7 @@ body {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     color: #fff;
     font-weight: 600;
     line-height: 1.4;
@@ -1784,7 +1786,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    padding: 1rem;
+    padding: 0 1rem 2rem;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .mobile-nav-card {
@@ -1833,6 +1837,16 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Show mobile menu toggle */
+    .mobile-menu-toggle {
+        display: flex !important;
+    }
+    
+    /* Show mobile dropdown menu */
+    .mobile-dropdown-menu {
+        display: block;
+    }
+    
     /* Hide desktop elements on mobile */
     .desktop-content {
         display: none !important;
@@ -1844,6 +1858,9 @@ body {
     
     .header {
         padding: 1rem 0.5rem;
+        position: relative;
+        z-index: 100;
+    }
     }
     
     /* Show mobile menu grid only on index page */
