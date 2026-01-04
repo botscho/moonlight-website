@@ -1664,14 +1664,35 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+    
+    .header {
+        padding: 1rem;
+    }
+    
     .header-content {
-        gap: 1rem;
-        padding: 0 1rem;
+        gap: 0.5rem;
+        padding: 0 0.5rem;
+        flex-wrap: nowrap;
     }
     
     .header-logo-left,
     .header-logo-right {
-        width: 70px;
+        width: 60px;
+    }
+    
+    .neon-text {
+        font-size: 1.5rem;
+    }
+    
+    .lounge-text {
+        font-size: 1.1rem;
+    }
+    
+    .location {
+        font-size: 0.65rem;
     }
     
     .sidebar {
@@ -1681,42 +1702,290 @@ body {
         top: 0;
         border-right: none;
         border-bottom: 2px solid rgba(255, 0, 255, 0.3);
+        max-height: none;
+    }
+    
+    .sidebar-nav {
+        padding: 1rem 0;
+    }
+    
+    .nav-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .nav-link {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        border-left: none;
+        border-bottom: 2px solid transparent;
+    }
+    
+    .nav-link:hover,
+    .nav-link.active {
+        border-left: none;
+        border-bottom: 2px solid var(--neon-pink);
+    }
+    
+    .google-reviews {
+        padding: 0 1rem;
+    }
+    
+    .reviews-link {
+        font-size: 0.85rem;
+        padding: 0.7rem 1rem;
+    }
+    
+    .google-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .news-section {
+        padding: 0 1rem;
+    }
+    
+    .news-title {
+        font-size: 0.95rem;
     }
     
     .main-content {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2rem;
     }
     
-    .header {
-        padding: 1rem 1.5rem;
-    }
-    
-    .logo {
-        width: 60px;
-        height: 60px;
-    }
-    
-    .neon-text {
-        font-size: 1.8rem;
-    }
-    
-    .lounge-text {
-        font-size: 1.3rem;
-    }
-    
-    .location {
-        font-size: 0.7rem;
+    .page-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
     
     .welcome-text {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .tagline {
         font-size: 1rem;
     }
+    
+    .intro-text {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    
+    /* Opening Hours Mobile */
+    .hours-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .day-card {
+        padding: 1.5rem;
+    }
+    
+    /* Menu Mobile */
+    .category-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .category-card {
+        padding: 1.5rem;
+    }
+    
+    /* Contact Mobile */
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .contact-card {
+        padding: 1.5rem;
+    }
+    
+    /* Gallery Mobile */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .gallery-item-wide,
+    .gallery-item-tall,
+    .gallery-item-portrait {
+        grid-column: auto;
+        grid-row: auto;
+        aspect-ratio: 4 / 3;
+    }
+    
+    .gallery-overlay {
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    .gallery-caption {
+        transform: translateY(0);
+        font-size: 0.9rem;
+    }
+    
+    /* Team Mobile */
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .team-photo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .team-photo-placeholder {
+        font-size: 3rem;
+    }
+    
+    .team-member {
+        padding: 1.5rem;
+    }
+    
+    /* Dart Mobile */
+    .dart-icon-large {
+        font-size: 4rem;
+    }
+    
+    .dart-tagline {
+        font-size: 1.1rem;
+    }
+    
+    .dart-intro {
+        padding: 2rem 1rem;
+    }
+    
+    .dart-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .dart-info-card {
+        padding: 1.5rem;
+    }
+    
+    .dart-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .dart-feature {
+        padding: 1rem;
+    }
+    
+    .feature-emoji {
+        font-size: 2rem;
+    }
+    
+    .dart-cta {
+        padding: 2rem 1.5rem;
+    }
+    
+    .dart-cta-title {
+        font-size: 1.8rem;
+    }
+    
+    .dart-cta-text {
+        font-size: 1rem;
+    }
+    
+    .dart-contact-name {
+        font-size: 1.8rem;
+    }
+    
+    .dart-contact-button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+    }
+    
+    /* Legal Mobile */
+    .legal-section {
+        padding: 1.5rem;
+    }
+    
+    .legal-section h3 {
+        font-size: 1.3rem;
+    }
+    
+    /* Footer Mobile */
+    .footer {
+        padding: 1.5rem 1rem;
+    }
+    
+    .copyright {
+        font-size: 0.85rem;
+    }
 }
+
+/* Extra Small Devices (phones < 480px) */
+@media (max-width: 480px) {
+    .header-logo-left,
+    .header-logo-right {
+        width: 50px;
+    }
+    
+    .neon-text {
+        font-size: 1.2rem;
+    }
+    
+    .lounge-text {
+        font-size: 0.9rem;
+    }
+    
+    .location {
+        font-size: 0.55rem;
+    }
+    
+    .nav-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-title {
+        font-size: 1.5rem;
+    }
+    
+    .welcome-text {
+        font-size: 1.5rem;
+    }
+    
+    .main-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .dart-features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tablet Landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sidebar {
+        width: 220px;
+    }
+    
+    .main-content {
+        margin-left: 220px;
+        padding: 3rem;
+    }
+    
+    .hours-grid,
+    .category-grid,
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
 /* Footer */
 .footer {
