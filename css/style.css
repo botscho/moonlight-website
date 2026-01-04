@@ -1667,6 +1667,103 @@ body {
     display: none;
 }
 
+/* Mobile Hamburger Menu */
+.mobile-menu-toggle {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1001;
+    background: linear-gradient(135deg, var(--neon-pink), var(--neon-yellow));
+    border: none;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle:hover,
+.mobile-menu-toggle:active {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(255, 255, 0, 0.6);
+}
+
+.hamburger-line {
+    width: 25px;
+    height: 3px;
+    background: var(--dark-bg);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.mobile-menu-toggle.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-toggle.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Mobile Dropdown Menu */
+.mobile-dropdown-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 280px;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.98);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    transition: left 0.4s ease;
+    overflow-y: auto;
+    border-right: 2px solid var(--neon-pink);
+    box-shadow: 5px 0 30px rgba(255, 0, 255, 0.5);
+}
+
+.mobile-dropdown-menu.active {
+    left: 0;
+}
+
+.mobile-dropdown-nav {
+    padding: 80px 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.mobile-dropdown-link {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.mobile-dropdown-link:hover,
+.mobile-dropdown-link:active {
+    background: rgba(255, 0, 255, 0.1);
+    border-left-color: var(--neon-yellow);
+    color: var(--neon-yellow);
+    transform: translateX(10px);
+}
+
 .mobile-welcome {
     font-size: 1.8rem;
     text-align: center;
