@@ -1662,14 +1662,123 @@ body {
     }
 }
 
+/* Mobile Menu Grid */
+.mobile-menu-grid {
+    display: none;
+}
+
+.mobile-welcome {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.highlight-pink {
+    background: linear-gradient(90deg, var(--neon-pink), var(--neon-yellow));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.mobile-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.mobile-nav-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 0, 255, 0.3);
+    border-radius: 16px;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.mobile-nav-card:hover,
+.mobile-nav-card:active {
+    background: rgba(255, 0, 255, 0.1);
+    border-color: var(--neon-yellow);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 255, 0, 0.3);
+}
+
+.mobile-nav-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.mobile-nav-card h3 {
+    color: var(--cyan);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.mobile-back-button {
+    display: none;
+}
+
+.desktop-content {
+    display: block;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-    body {
-        padding-top: 0;
+    /* Hide desktop elements on mobile */
+    .desktop-content {
+        display: none !important;
+    }
+    
+    .sidebar {
+        display: none !important;
     }
     
     .header {
+        padding: 1rem 0.5rem;
+    }
+    
+    /* Show mobile menu grid only on index page */
+    body.mobile-home .mobile-menu-grid {
+        display: block;
+        padding: 2rem 1rem;
+    }
+    
+    /* Mobile back button for sub-pages */
+    .mobile-back-button {
+        display: block;
+        background: linear-gradient(90deg, var(--neon-pink), var(--neon-yellow));
+        color: var(--dark-bg);
+        text-decoration: none;
         padding: 1rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.1rem;
+        border-radius: 12px;
+        margin: 1rem;
+        box-shadow: 0 0 20px rgba(255, 0, 255, 0.4);
+        transition: all 0.3s ease;
+    }
+    
+    .mobile-back-button:hover,
+    .mobile-back-button:active {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(255, 255, 0, 0.6);
+    }
+    /* Mobile layout adjustments */
+    body {
+        padding-top: 0;
     }
     
     .header-content {
@@ -1695,63 +1804,18 @@ body {
         font-size: 0.65rem;
     }
     
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-        top: 0;
-        border-right: none;
-        border-bottom: 2px solid rgba(255, 0, 255, 0.3);
-        max-height: none;
-        overflow: visible;
-    }
-    
-    .sidebar-nav {
-        padding: 1rem 0;
-    }
-    
-    .nav-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        padding: 0 1rem;
-    }
-    
-    .nav-list li {
-        flex: 1 1 calc(50% - 0.5rem);
-        min-width: 140px;
-    }
-    
-    .nav-link {
-        padding: 0.8rem 0.5rem;
-        font-size: 0.85rem;
-        text-align: center;
-        border-left: none;
-        border-bottom: 2px solid transparent;
-        display: block;
-        width: 100%;
-    }
-    
-    .nav-link:hover,
-    .nav-link.active {
-        border-left: none;
-        border-bottom: 2px solid var(--neon-pink);
-    }
-    
-    .google-reviews,
-    .news-section {
-        display: none;
-    }
-    
     .main-content {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: 2rem;
+        padding: 0;
+        margin-left: 0;
+    }
+    
+    .content-section {
+        padding: 1.5rem 1rem;
     }
     
     .page-title {
         font-size: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     
     .welcome-text {
