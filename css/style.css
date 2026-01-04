@@ -1844,7 +1844,15 @@ body {
     }
     
     /* Hide desktop elements on mobile */
-    .deCenter mobile nav grid */
+    .desktop-content {
+        display: none !important;
+    }
+    
+    .sidebar {
+        display: none !important;
+    }
+    
+    /* Center mobile nav grid */
     .mobile-nav-grid {
         padding: 0 1rem 2rem;
         max-width: 500px;
@@ -1859,19 +1867,10 @@ body {
         display: block;
     }
     
-    /* sktop-content {
-        display: none !important;
-    }
-    
-    .sidebar {
-        display: none !important;
-    }
-    
     .header {
         padding: 1rem 0.5rem;
         position: relative;
         z-index: 100;
-    }
     }
     
     /* Show mobile menu grid only on index page */
@@ -1898,6 +1897,51 @@ body {
     
     .mobile-back-button:hover,
     .mobile-back-button:active {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(255, 255, 0, 0.6);
+    }
+    
+    /* Mobile layout adjustments */
+    body {
+        padding-top: 0;
+    }
+    
+    .header-content {
+        gap: 0.5rem;
+        padding: 0 0.5rem;
+        flex-wrap: nowrap;
+    }
+    
+    .header-logo-left,
+    .header-logo-right {
+        width: 60px;
+    }
+    
+    .neon-text {
+        font-size: 1.5rem;
+    }
+    
+    .lounge-text {
+        font-size: 1.1rem;
+    }
+    
+    .location {
+        font-size: 0.65rem;
+    }
+    
+    .main-content {
+        padding: 0;
+        margin-left: 0;
+    }
+    
+    .content-section {
+        padding: 1.5rem 1rem;
+    }
+    
+    .page-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
         transform: scale(1.05);
         box-shadow: 0 0 30px rgba(255, 255, 0, 0.6);
     }
