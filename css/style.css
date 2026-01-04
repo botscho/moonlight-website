@@ -1703,6 +1703,7 @@ body {
         border-right: none;
         border-bottom: 2px solid rgba(255, 0, 255, 0.3);
         max-height: none;
+        overflow: visible;
     }
     
     .sidebar-nav {
@@ -1710,17 +1711,25 @@ body {
     }
     
     .nav-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         gap: 0.5rem;
+        padding: 0 1rem;
+    }
+    
+    .nav-list li {
+        flex: 1 1 calc(50% - 0.5rem);
+        min-width: 140px;
     }
     
     .nav-link {
-        padding: 0.8rem 1rem;
-        font-size: 0.9rem;
+        padding: 0.8rem 0.5rem;
+        font-size: 0.85rem;
         text-align: center;
         border-left: none;
         border-bottom: 2px solid transparent;
+        display: block;
+        width: 100%;
     }
     
     .nav-link:hover,
@@ -1729,26 +1738,9 @@ body {
         border-bottom: 2px solid var(--neon-pink);
     }
     
-    .google-reviews {
-        padding: 0 1rem;
-    }
-    
-    .reviews-link {
-        font-size: 0.85rem;
-        padding: 0.7rem 1rem;
-    }
-    
-    .google-icon {
-        width: 16px;
-        height: 16px;
-    }
-    
+    .google-reviews,
     .news-section {
-        padding: 0 1rem;
-    }
-    
-    .news-title {
-        font-size: 0.95rem;
+        display: none;
     }
     
     .main-content {
