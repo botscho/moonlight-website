@@ -148,10 +148,12 @@
                     
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="date">Datum * <span class="click-hint">(Klicken zum Auswählen)</span></label>
+                            <label for="date">Datum * <span class="click-hint">(Bitte auswählen)</span></label>
                             <div class="input-with-icon">
                                 <span class="input-icon">📅</span>
-                                <input type="date" id="date" name="Datum" required min="" placeholder="TT.MM.JJJJ">
+                                <select id="date" name="Datum" required>
+                                    <option value="">Bitte wählen...</option>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -245,9 +247,33 @@
 
     <script src="js/main.js"></script>
     <script>
-        // Mindest-Datum auf heute setzen
-        const today = new Date().toISOString().split('T')[0];
-        document.getElementById('date').setAttribute('min', today);
+        // Datums-Dropdown mit den nächsten 60 Tagen füllen
+        const dateSelect = document.getElementById('date');
+        const today = new Date();
+        
+        const weekdays = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+        const months = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
+        
+        for (let i = 0; i < 60; i++) {
+            const date = new Date(today);
+            date.setDate(today.getDate() + i);
+            
+            const dayName = weekdays[date.getDay()];
+            const day = String(date.getDate()).padStart(2, '0');
+            const month = months[date.getMonth()];
+            const year = date.getFullYear();
+            
+            // ISO Format für value (YYYY-MM-DD)
+            const isoDate = date.toISOString().split('T')[0];
+            
+            // Anzeige Format (z.B. "Mo, 06. Jan 2026")
+            const displayText = `${dayName}, ${day}. ${month} ${year}`;
+            
+            const option = document.createElement('option');
+            option.value = isoDate;
+            option.textContent = displayText;
+            dateSelect.appendChild(option);
+        }
 
         // Reservierungsformular-Handling
         document.getElementById('reservationForm').addEventListener('submit', function(event) {
