@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <style type="text/css">
+        /* Apple Mail Link Override */
+        a[x-apple-data-detectors] {
+            color: #ffffff !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        /* Alle Links in der Reservierungsdetails-Tabelle weiß machen */
+        .reservation-details a,
+        .reservation-details a:link,
+        .reservation-details a:visited,
+        .reservation-details a:hover,
+        .reservation-details a:active {
+            color: #ffffff !important;
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #0a0a1e;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #0a0a1e;">
+        <tr>
+            <td align="center" style="padding: 40px 20px;">
+                <table width="600" cellpadding="0" cellspacing="0" style="background: linear-gradient(135deg, #1a0033 0%, #0a0a1e 100%); border-radius: 12px; overflow: hidden; box-shadow: 0 10px 50px rgba(255, 0, 255, 0.3);">
+                    
+                    <!-- Header -->
+                    <tr>
+                        <td style="background: linear-gradient(135deg, #ff00ff 0%, #00e5ff 100%); padding: 40px; text-align: center;">
+                            <h1 style="margin: 0; color: #ffffff; font-size: 38px; text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);">
+                                ✨ Moonlight Lounge
+                            </h1>
+                            <p style="margin: 10px 0 0 0; color: #ffffff; font-size: 18px; opacity: 0.9;">
+                                Neue Reservierungsanfrage
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Gast-Informationen -->
+                    <tr>
+                        <td style="padding: 30px;">
+                            <table width="100%" cellpadding="0" cellspacing="0" style="background: rgba(30, 30, 60, 0.6); border: 2px solid #ff00ff; border-radius: 10px; padding: 20px;">
+                                <tr>
+                                    <td>
+                                        <h2 style="margin: 0 0 20px 0; color: #ff00ff; font-size: 26px;">
+                                            👤 Gast-Informationen
+                                        </h2>
+                                        <table width="100%" cellpadding="8" cellspacing="0">
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px; width: 120px;">Name:</td>
+                                                <td style="color: #ffffff; font-size: 18px; font-weight: bold;">{{Vorname}} {{Nachname}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px;">E-Mail:</td>
+                                                <td style="color: #00e5ff; font-size: 18px;">{{email}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px;">Telefon:</td>
+                                                <td style="color: #ffffff; font-size: 18px;">{{Telefon}}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Reservierungsdetails -->
+                    <tr>
+                        <td style="padding: 0 30px 30px 30px;">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="reservation-details" style="background: rgba(30, 30, 60, 0.6); border: 2px solid #00e5ff; border-radius: 10px; padding: 20px;">
+                                <tr>
+                                    <td>
+                                        <h2 style="margin: 0 0 20px 0; color: #00e5ff; font-size: 26px;">
+                                            📅 Reservierungsdetails
+                                        </h2>
+                                        <table width="100%" cellpadding="8" cellspacing="0">
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px; width: 120px;">Datum:</td>
+                                                <td style="color: #ffffff !important; font-size: 20px; font-weight: bold;"><a href="#" style="color: #ffffff !important; text-decoration: none !important; pointer-events: none;">{{Datum}}</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px;">Uhrzeit:</td>
+                                                <td style="color: #ffffff !important; font-size: 20px; font-weight: bold;"><a href="#" style="color: #ffffff !important; text-decoration: none !important; pointer-events: none;">{{Uhrzeit}}</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px;">Personen:</td>
+                                                <td style="color: #ffff00; font-size: 20px; font-weight: bold;">{{Gaeste}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #aaaaaa; font-size: 16px;">Anlass:</td>
+                                                <td style="color: #ffffff; font-size: 18px;">{{Anlass}}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Besondere Wünsche -->
+                    <tr>
+                        <td style="padding: 0 30px 30px 30px;">
+                            <table width="100%" cellpadding="0" cellspacing="0" style="background: rgba(30, 30, 60, 0.6); border: 2px solid #ffff00; border-radius: 10px; padding: 20px;">
+                                <tr>
+                                    <td>
+                                        <h2 style="margin: 0 0 15px 0; color: #ffff00; font-size: 26px;">
+                                            💬 Besondere Wünsche
+                                        </h2>
+                                        <p style="margin: 0; color: #ffffff; font-size: 17px; line-height: 1.6;">
+                                            {{Nachricht}}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background: rgba(20, 20, 40, 0.8); padding: 25px; text-align: center; border-top: 1px solid rgba(255, 0, 255, 0.3);">
+                            <p style="margin: 0 0 10px 0; color: #aaaaaa; font-size: 14px;">
+                                📍 Hauptstraße 35, 78549 Spaichingen
+                            </p>
+                            <p style="margin: 0; color: #00e5ff; font-size: 14px;">
+                                📧 kontakt@moonlightlounge-spaichingen.de
+                            </p>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
