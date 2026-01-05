@@ -55,8 +55,9 @@ def generate_gallery_html(media_files):
 '''
         else:  # video
             html = f'''                <!-- Video {i+1} -->
-                <div class="gallery-item{wide_class}">
-                    <video src="assets/galerie/{filename}" controls loading="lazy">
+                <div class="gallery-item{wide_class} gallery-video">
+                    <video controls preload="metadata">
+                        <source src="assets/galerie/{filename}" type="video/mp4">
                         Ihr Browser unterstützt keine Videos.
                     </video>
                     <div class="gallery-overlay">
