@@ -16,6 +16,105 @@
     --darker-bg: #050505;
 }
 
+/* Cookie-Banner Styles */
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, rgba(20, 0, 40, 0.98) 0%, rgba(10, 10, 30, 0.98) 100%);
+    backdrop-filter: blur(15px);
+    border-top: 2px solid var(--neon-pink);
+    box-shadow: 0 -5px 30px rgba(255, 0, 255, 0.4);
+    z-index: 10000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.cookie-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cookie-text {
+    flex: 1;
+}
+
+.cookie-text p {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.cookie-btn {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.cookie-accept {
+    background: linear-gradient(135deg, var(--neon-pink) 0%, var(--cyan) 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 0, 255, 0.4);
+}
+
+.cookie-accept:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(255, 0, 255, 0.6);
+}
+
+.cookie-reject {
+    background: rgba(100, 100, 100, 0.3);
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.cookie-reject:hover {
+    background: rgba(150, 150, 150, 0.4);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .cookie-content {
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+        gap: 1.5rem;
+    }
+    
+    .cookie-text p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .cookie-buttons {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cookie-btn {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
