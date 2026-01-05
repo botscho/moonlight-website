@@ -2980,3 +2980,240 @@ body {
         font-size: 1.5rem;
     }
 }
+
+/* Wöchentliches Bingo Event Section */
+.weekly-event-section {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0;
+}
+
+.weekly-event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.weekly-event-title {
+    font-size: 2rem;
+    color: var(--neon-pink);
+    text-shadow: 0 0 15px rgba(255, 0, 255, 0.6);
+    margin: 0;
+}
+
+.weekly-badge {
+    background: linear-gradient(135deg, var(--neon-pink) 0%, var(--cyan) 100%);
+    color: #ffffff;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(255, 0, 255, 0.4);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.bingo-event-card {
+    background: linear-gradient(135deg, rgba(30, 0, 60, 0.8) 0%, rgba(10, 10, 30, 0.8) 100%);
+    border: 2px solid var(--neon-pink);
+    border-radius: 20px;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    box-shadow: 0 10px 40px rgba(255, 0, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.bingo-event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(255, 0, 255, 0.5);
+    border-color: var(--cyan);
+}
+
+.bingo-left {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.bingo-icon {
+    font-size: 5rem;
+    filter: drop-shadow(0 0 20px rgba(255, 0, 255, 0.8));
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.bingo-content {
+    flex: 1;
+}
+
+.bingo-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0 0 0.5rem 0;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+.bingo-subtitle {
+    color: var(--cyan);
+    font-size: 1.1rem;
+    margin: 0 0 2rem 0;
+    font-weight: 300;
+}
+
+.bingo-schedule {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.bingo-day, .bingo-time {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.day-label, .time-label {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.day-value, .time-value {
+    font-size: 1.3rem;
+    color: var(--neon-yellow);
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+}
+
+.bingo-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bingo-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.bingo-feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+.feature-icon {
+    font-size: 1.8rem;
+}
+
+.feature-text {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.bingo-reservation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reservation-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.2) 0%, rgba(255, 100, 0, 0.2) 100%);
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    animation: pulse-warning 2s ease-in-out infinite;
+}
+
+@keyframes pulse-warning {
+    0%, 100% { 
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    }
+    50% { 
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+    }
+}
+
+.badge-icon {
+    font-size: 1.5rem;
+}
+
+.badge-text {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.bingo-reserve-button {
+    display: inline-block;
+    padding: 1.2rem 2.5rem;
+    background: linear-gradient(135deg, var(--neon-pink) 0%, var(--cyan) 100%);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(255, 0, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.bingo-reserve-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255, 0, 255, 0.6);
+}
+
+/* Mobile Responsive für Bingo Event */
+@media (max-width: 968px) {
+    .bingo-event-card {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    .weekly-event-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .bingo-left {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .bingo-icon {
+        font-size: 4rem;
+    }
+    
+    .bingo-title {
+        font-size: 2rem;
+    }
+    
+    .bingo-schedule {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .bingo-features {
+        margin-bottom: 1.5rem;
+    }
+}
