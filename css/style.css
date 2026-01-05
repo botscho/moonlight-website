@@ -2576,40 +2576,38 @@ body {
 .form-group input[type="time"] {
     cursor: pointer;
     position: relative;
+    padding-right: 50px !important;
 }
 
 .form-group input[type="date"]::-webkit-calendar-picker-indicator,
 .form-group input[type="time"]::-webkit-calendar-picker-indicator {
     cursor: pointer;
-    filter: invert(1);
-    width: 20px;
-    height: 20px;
-    padding: 8px;
-    margin-left: 8px;
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, var(--neon-cyan), rgba(0, 229, 255, 0.6));
     border: 2px solid var(--neon-cyan);
-    border-radius: 8px;
-    background: rgba(0, 229, 255, 0.15);
-    box-shadow: 0 0 20px var(--neon-cyan), 0 0 30px rgba(0, 229, 255, 0.5);
+    box-shadow: 0 0 15px var(--neon-cyan), 0 0 25px rgba(0, 229, 255, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.2);
     animation: picker-pulse 2s ease-in-out infinite;
     transition: all 0.3s ease;
 }
 
 @keyframes picker-pulse {
     0%, 100% {
-        box-shadow: 0 0 20px var(--neon-cyan), 0 0 30px rgba(0, 229, 255, 0.5);
-        border-color: var(--neon-cyan);
+        box-shadow: 0 0 15px var(--neon-cyan), 0 0 25px rgba(0, 229, 255, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.2);
     }
     50% {
-        box-shadow: 0 0 30px var(--neon-cyan), 0 0 45px var(--neon-cyan), 0 0 60px rgba(0, 229, 255, 0.3);
-        border-color: rgba(0, 229, 255, 1);
+        box-shadow: 0 0 25px var(--neon-cyan), 0 0 40px var(--neon-cyan), 0 0 55px rgba(0, 229, 255, 0.3), inset 0 0 15px rgba(255, 255, 255, 0.3);
     }
 }
 
 .form-group input[type="date"]::-webkit-calendar-picker-indicator:hover,
 .form-group input[type="time"]::-webkit-calendar-picker-indicator:hover {
-    transform: scale(1.15);
-    background: rgba(0, 229, 255, 0.3);
-    box-shadow: 0 0 35px var(--neon-cyan), 0 0 50px var(--neon-cyan), 0 0 70px rgba(0, 229, 255, 0.4);
+    transform: scale(1.1);
+    background: linear-gradient(135deg, rgba(0, 229, 255, 1), rgba(0, 229, 255, 0.8));
+    box-shadow: 0 0 30px var(--neon-cyan), 0 0 50px var(--neon-cyan), 0 0 70px rgba(0, 229, 255, 0.3);
 }
 
 .form-group input:focus,
