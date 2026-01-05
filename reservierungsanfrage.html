@@ -148,12 +148,18 @@
                     
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="date">📅 Datum * <span class="click-hint">(Klicken zum Auswählen)</span></label>
-                            <input type="date" id="date" name="Datum" required min="" placeholder="TT.MM.JJJJ">
+                            <label for="date">Datum * <span class="click-hint">(Klicken zum Auswählen)</span></label>
+                            <div class="input-with-icon">
+                                <span class="input-icon">📅</span>
+                                <input type="date" id="date" name="Datum" required min="" placeholder="TT.MM.JJJJ">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="time">🕐 Uhrzeit * <span class="click-hint">(Klicken zum Auswählen)</span></label>
-                            <input type="time" id="time" name="Uhrzeit" required min="18:00" max="23:30" step="900" placeholder="HH:MM">
+                            <label for="time">Uhrzeit * <span class="click-hint">(Klicken zum Auswählen)</span></label>
+                            <div class="input-with-icon">
+                                <span class="input-icon">🕐</span>
+                                <input type="time" id="time" name="Uhrzeit" required min="18:00" max="23:30" step="900" placeholder="HH:MM">
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="guests">Anzahl Personen *</label>

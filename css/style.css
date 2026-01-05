@@ -2585,6 +2585,37 @@ body {
     filter: invert(1);
 }
 
+/* Input mit Icon auf der linken Seite */
+.input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 12px;
+    font-size: 1.3rem;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 10px var(--neon-cyan);
+    pointer-events: none;
+    z-index: 1;
+    animation: icon-pulse 2s ease-in-out infinite;
+}
+
+@keyframes icon-pulse {
+    0%, 100% {
+        text-shadow: 0 0 10px var(--neon-cyan), 0 0 20px var(--neon-cyan);
+    }
+    50% {
+        text-shadow: 0 0 20px var(--neon-cyan), 0 0 30px var(--neon-cyan), 0 0 40px var(--neon-cyan);
+    }
+}
+
+.input-with-icon input {
+    padding-left: 3rem !important;
+}
+
 /* Click Hint Styling */
 .click-hint {
     font-size: 0.75rem;
