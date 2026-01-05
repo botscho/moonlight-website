@@ -2571,6 +2571,27 @@ body {
     transition: all 0.3s ease;
 }
 
+/* Date und Time Picker Styling */
+.form-group input[type="date"],
+.form-group input[type="time"] {
+    cursor: pointer;
+    position: relative;
+}
+
+.form-group input[type="date"]::-webkit-calendar-picker-indicator,
+.form-group input[type="time"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0.8;
+    filter: invert(1);
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.form-group input[type="date"]::-webkit-calendar-picker-indicator:hover,
+.form-group input[type="time"]::-webkit-calendar-picker-indicator:hover {
+    opacity: 1;
+}
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
