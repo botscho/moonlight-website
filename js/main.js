@@ -48,4 +48,30 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Automatisches Löschen vergangener Events
+    removeExpiredEvents();
 });
+
+// Funktion zum Entfernen vergangener Events
+function removeExpiredEvents() {
+    const now = new Date();
+    
+    const eventCards = document.querySelectorAll('.event-card[data-event-date]');
+    
+    eventCards.forEach(card => {
+        const eventDateStr = card.getAttribute('data-event-date');
+        if (eventDateStr) {
+            const eventDate = new Date(eventDateStr);
+            // Event wird am Folgetag um 3 Uhr gelöscht
+            // Beispiel: Event am 30.01. wird am 31.01. um 3:00 Uhr gelöscht
+            eventDate.setDate(eventDate.getDate() + 1); // +1 Tag
+            eventDate.setHours(3, 0, 0, 0); // 3:00 Uhr morgens
+            
+            // Wenn Löschzeitpunkt vorbei ist, Event entfernen
+            if (now >= eventDate) {
+                card.remove();
+            }
+        }
+    });
+}
