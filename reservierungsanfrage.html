@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("c9St0pwmWw80fdqKJ");
+        })();
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -104,13 +110,7 @@
                 <p class="intro-sub">Füllen Sie das Formular aus und wir bestätigen Ihre Reservierung schnellstmöglich.</p>
             </div>
 
-            <form class="reservation-form" action="https://api.web3forms.com/submit" method="POST">
-                
-                <!-- Web3Forms Configuration -->
-                <input type="hidden" name="access_key" value="48486cf2-57e2-4760-8e1b-3b94e6551010">
-                <input type="hidden" name="subject" value="🍽️ Neue Reservierungsanfrage - Moonlight Lounge">
-                <input type="hidden" name="from_name" value="Moonlight Lounge Reservierung">
-                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <form class="reservation-form" id="reservationForm">
                 
                 <!-- Persönliche Daten -->
                 <div class="form-section">
@@ -128,19 +128,19 @@
                             <label for="lastName">Nachname *</label>
                             <input type="text" id="lastName" name="👤 Nachname" placeholder="Mustermann" required>
                         </div>
+                        <div class="form-group">Vorname" placeholder="Max" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Nachname *</label>
+                            <input type="text" id="lastName" name="Nachname" placeholder="Mustermann" required>
+                        </div>
                         <div class="form-group">
                             <label for="email">E-Mail *</label>
                             <input type="email" id="email" name="email" placeholder="max@beispiel.de" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Telefon *</label>
-                            <input type="tel" id="phone" name="📞 Telefon / WhatsApp" placeholder="0123 456789" required>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Reservierungsdetails -->
-                <div class="form-section">
+                            <input type="tel" id="phone" name="Telefon
                     <h3 class="form-section-title">
                         <span class="section-icon">📅</span>
                         <span>Reservierungsdetails</span>
@@ -149,15 +149,15 @@
                     <div class="form-grid">
                         <div class="form-group">
                             <label for="date">Datum *</label>
-                            <input type="date" id="date" name="📅 Gewünschtes Datum" required>
+                            <input type="date" id="date" name="Datum" required>
                         </div>
                         <div class="form-group">
                             <label for="time">Uhrzeit *</label>
-                            <input type="time" id="time" name="🕐 Gewünschte Uhrzeit" required>
+                            <input type="time" id="time" name="Uhrzeit" required>
                         </div>
                         <div class="form-group">
                             <label for="guests">Anzahl Personen *</label>
-                            <select id="guests" name="👥 Anzahl Gäste" required>
+                            <select id="guests" name="Gaeste" required>
                                 <option value="">Bitte wählen...</option>
                                 <option value="1 Person">1 Person</option>
                                 <option value="2 Personen">2 Personen</option>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="form-group">
                             <label for="occasion">Anlass (optional)</label>
-                            <select id="occasion" name="🎉 Besonderer Anlass">
+                            <select id="occasion" name="Anlass">
                                 <option value="Kein besonderer Anlass">Bitte wählen...</option>
                                 <option value="🎂 Geburtstag">🎂 Geburtstag</option>
                                 <option value="💼 Geschäftsessen">💼 Geschäftsessen</option>
@@ -193,7 +193,7 @@
                     
                     <div class="form-group full-width">
                         <label for="message">Ihre Nachricht (optional)</label>
-                        <textarea id="message" name="💬 Nachricht & besondere Wünsche" rows="5" placeholder="Haben Sie besondere Wünsche? Allergien? Möchten Sie einen bestimmten Tisch? Teilen Sie uns alles mit..."></textarea>
+                        <textarea id="message" name="Nachricht" rows="5" placeholder="Haben Sie besondere Wünsche? Allergien? Möchten Sie einen bestimmten Tisch? Teilen Sie uns alles mit..."></textarea>
                     </div>
                 </div>
 
@@ -223,5 +223,55 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+        document.getElementById('reservationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const submitButton = this.querySelector('.submit-button');
+            const originalButtonText = submitButton.innerHTML;
+            
+            // Button deaktivieren und Ladezustand anzeigen
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<span class="button-icon">⏳</span><span>Wird gesendet...</span>';
+            
+            // Formulardaten sammeln
+            const formData = new FormData(this);
+            const templateParams = {};
+            formData.forEach((value, key) => {
+                templateParams[key] = value;
+            });
+            
+            // E-Mail über EmailJS senden
+            emailjs.send('service_qb5enta', 'template_yee80gj', templateParams)
+                .then(function(response) {
+                    // Erfolgsmeldung
+                    submitButton.innerHTML = '<span class="button-icon">✅</span><span>Erfolgreich gesendet!</span>';
+                    submitButton.style.background = 'linear-gradient(135deg, #00e500, #00ff00)';
+                    
+                    // Formular zurücksetzen
+                    document.getElementById('reservationForm').reset();
+                    
+                    // Nach 3 Sekunden Button zurücksetzen
+                    setTimeout(function() {
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = originalButtonText;
+                        submitButton.style.background = '';
+                    }, 3000);
+                }, function(error) {
+                    // Fehlermeldung
+                    submitButton.innerHTML = '<span class="button-icon">❌</span><span>Fehler beim Senden</span>';
+                    submitButton.style.background = 'linear-gradient(135deg, #ff0000, #ff4444)';
+                    submitButton.disabled = false;
+                    
+                    // Nach 3 Sekunden Button zurücksetzen
+                    setTimeout(function() {
+                        submitButton.innerHTML = originalButtonText;
+                        submitButton.style.background = '';
+                    }, 3000);
+                    
+                    console.error('EmailJS Error:', error);
+                });
+        });
+    </script>
 </body>
 </html>
