@@ -104,13 +104,13 @@
                 <p class="intro-sub">Füllen Sie das Formular aus und wir bestätigen Ihre Reservierung schnellstmöglich.</p>
             </div>
 
-            <form class="reservation-form" action="https://formsubmit.co/kontakt@moonlightlounge-spaichingen.de" method="POST">
+            <form class="reservation-form" action="https://api.web3forms.com/submit" method="POST">
                 
-                <!-- FormSubmit Configuration -->
-                <input type="hidden" name="_subject" value="Neue Reservierungsanfrage - Moonlight Lounge">
-                <input type="hidden" name="_next" value="https://moonlightlounge-spaichingen.de/reservierungsanfrage.html?success=true">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
+                <!-- Web3Forms Configuration -->
+                <input type="hidden" name="access_key" value="48486cf2-57e2-4760-8e1b-3b94e6551010">
+                <input type="hidden" name="subject" value="🍽️ Neue Reservierungsanfrage - Moonlight Lounge">
+                <input type="hidden" name="from_name" value="Moonlight Lounge Reservierung">
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 
                 <!-- Persönliche Daten -->
                 <div class="form-section">
@@ -122,11 +122,11 @@
                     <div class="form-grid">
                         <div class="form-group">
                             <label for="firstName">Vorname *</label>
-                            <input type="text" id="firstName" name="firstName" placeholder="Max" required>
+                            <input type="text" id="firstName" name="👤 Vorname" placeholder="Max" required>
                         </div>
                         <div class="form-group">
                             <label for="lastName">Nachname *</label>
-                            <input type="text" id="lastName" name="lastName" placeholder="Mustermann" required>
+                            <input type="text" id="lastName" name="👤 Nachname" placeholder="Mustermann" required>
                         </div>
                         <div class="form-group">
                             <label for="email">E-Mail *</label>
@@ -134,7 +134,7 @@
                         </div>
                         <div class="form-group">
                             <label for="phone">Telefon *</label>
-                            <input type="tel" id="phone" name="phone" placeholder="0123 456789" required>
+                            <input type="tel" id="phone" name="📞 Telefon / WhatsApp" placeholder="0123 456789" required>
                         </div>
                     </div>
                 </div>
@@ -149,36 +149,36 @@
                     <div class="form-grid">
                         <div class="form-group">
                             <label for="date">Datum *</label>
-                            <input type="date" id="date" name="date" required>
+                            <input type="date" id="date" name="📅 Gewünschtes Datum" required>
                         </div>
                         <div class="form-group">
                             <label for="time">Uhrzeit *</label>
-                            <input type="time" id="time" name="time" required>
+                            <input type="time" id="time" name="🕐 Gewünschte Uhrzeit" required>
                         </div>
                         <div class="form-group">
                             <label for="guests">Anzahl Personen *</label>
-                            <select id="guests" name="guests" required>
+                            <select id="guests" name="👥 Anzahl Gäste" required>
                                 <option value="">Bitte wählen...</option>
-                                <option value="1">1 Person</option>
-                                <option value="2">2 Personen</option>
-                                <option value="3">3 Personen</option>
-                                <option value="4">4 Personen</option>
-                                <option value="5">5 Personen</option>
-                                <option value="6">6 Personen</option>
-                                <option value="7">7 Personen</option>
-                                <option value="8">8 Personen</option>
-                                <option value="mehr">Mehr als 8 Personen</option>
+                                <option value="1 Person">1 Person</option>
+                                <option value="2 Personen">2 Personen</option>
+                                <option value="3 Personen">3 Personen</option>
+                                <option value="4 Personen">4 Personen</option>
+                                <option value="5 Personen">5 Personen</option>
+                                <option value="6 Personen">6 Personen</option>
+                                <option value="7 Personen">7 Personen</option>
+                                <option value="8 Personen">8 Personen</option>
+                                <option value="Mehr als 8 Personen">Mehr als 8 Personen</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="occasion">Anlass (optional)</label>
-                            <select id="occasion" name="occasion">
-                                <option value="">Bitte wählen...</option>
-                                <option value="geburtstag">🎂 Geburtstag</option>
-                                <option value="geschaeftlich">💼 Geschäftlich</option>
-                                <option value="jubilaeum">🎉 Jubiläum</option>
-                                <option value="familie">👨‍👩‍👧‍👦 Familienfeier</option>
-                                <option value="sonstiges">✨ Sonstiges</option>
+                            <select id="occasion" name="🎉 Besonderer Anlass">
+                                <option value="Kein besonderer Anlass">Bitte wählen...</option>
+                                <option value="🎂 Geburtstag">🎂 Geburtstag</option>
+                                <option value="💼 Geschäftsessen">💼 Geschäftsessen</option>
+                                <option value="🎉 Jubiläum">🎉 Jubiläum</option>
+                                <option value="👨‍👩‍👧‍👦 Familienfeier">👨‍👩‍👧‍👦 Familienfeier</option>
+                                <option value="✨ Sonstiges">✨ Sonstiges</option>
                             </select>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
                     
                     <div class="form-group full-width">
                         <label for="message">Ihre Nachricht (optional)</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Haben Sie besondere Wünsche? Allergien? Möchten Sie einen bestimmten Tisch? Teilen Sie uns alles mit..."></textarea>
+                        <textarea id="message" name="💬 Nachricht & besondere Wünsche" rows="5" placeholder="Haben Sie besondere Wünsche? Allergien? Möchten Sie einen bestimmten Tisch? Teilen Sie uns alles mit..."></textarea>
                     </div>
                 </div>
 
