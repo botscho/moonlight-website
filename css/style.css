@@ -2612,7 +2612,8 @@ body {
     }
 }
 
-.input-with-icon input {
+.input-with-icon input,
+.input-with-icon select {
     padding-left: 3rem !important;
 }
 
