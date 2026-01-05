@@ -2592,6 +2592,37 @@ body {
     opacity: 1;
 }
 
+/* Input mit Icon Wrapper */
+.input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 12px;
+    font-size: 1.3rem;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 10px var(--neon-cyan);
+    pointer-events: none;
+    z-index: 1;
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        text-shadow: 0 0 10px var(--neon-cyan), 0 0 20px var(--neon-cyan);
+    }
+    50% {
+        text-shadow: 0 0 20px var(--neon-cyan), 0 0 30px var(--neon-cyan), 0 0 40px var(--neon-cyan);
+    }
+}
+
+.input-with-icon input {
+    padding-left: 3rem !important;
+}
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
