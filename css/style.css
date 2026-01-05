@@ -1695,9 +1695,13 @@ body {
     max-width: 800px;
     margin: 0 auto 4rem;
     padding: 3rem 2rem;
-    background: rgba(255, 255, 255, 0.03);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/dart-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 20px;
-    border: 2px solid rgba(255, 0, 255, 0.2);
+    border: 2px solid rgba(255, 0, 255, 0.4);
+    box-shadow: 0 10px 40px rgba(255, 0, 255, 0.3);
 }
 
 .dart-icon-large {
