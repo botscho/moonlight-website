@@ -51,7 +51,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Automatisches Löschen vergangener Events
     removeExpiredEvents();
+    
+    // Automatisches Verstecken des Turnier-Links
+    hideTournamentLinkAfterEvent();
 });
+
+// Funktion zum Verstecken des Turnier-Links nach dem Event (24.01.2026 um 1 Uhr)
+function hideTournamentLinkAfterEvent() {
+    const now = new Date();
+    const hideDate = new Date('2026-01-24T01:00:00'); // 24.01.2026, 01:00 Uhr
+    
+    if (now >= hideDate) {
+        // Sidebar Link verstecken
+        const sidebarLink = document.getElementById('turnier-nav-link');
+        if (sidebarLink) {
+            sidebarLink.style.display = 'none';
+        }
+        
+        // Mobile Link verstecken
+        const mobileLink = document.getElementById('turnier-mobile-link');
+        if (mobileLink) {
+            mobileLink.style.display = 'none';
+        }
+    }
+}
 
 // Funktion zum Entfernen vergangener Events
 function removeExpiredEvents() {

@@ -12,13 +12,19 @@
         }
     </script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Öffnungszeiten - Moonlight Lounge Spaichingen</title>
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <title>PS5 Fußball Turnier Anmeldung - Moonlight Lounge Spaichingen</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="js/cookie-banner.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("c9St0pwmWw80fdqKJ");
+        })();
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -46,14 +52,14 @@
         <nav class="sidebar-nav">
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Startseite</a></li>
-                <li><a href="oeffnungszeiten.html" class="nav-link active">Öffnungszeiten</a></li>
+                <li><a href="oeffnungszeiten.html" class="nav-link">Öffnungszeiten</a></li>
                 <li><a href="speisekarte.html" class="nav-link">Speisekarte</a></li>
                 <li><a href="events.html" class="nav-link">Event Kalender</a></li>
                 <li><a href="galerie.html" class="nav-link">Galerie</a></li>
                 <li><a href="team.html" class="nav-link">Team</a></li>
                 <li><a href="dart.html" class="nav-link">Dart</a></li>
                 <li><a href="reservierungsanfrage.html" class="nav-link">Reservierungsanfrage</a></li>
-                <li id="turnier-nav-link"><a href="fussball-turnier-anmeldung.html" class="nav-link">Anmeldeformular PS5 Fussball Turnier</a></li>
+                <li id="turnier-nav-link"><a href="fussball-turnier-anmeldung.html" class="nav-link active">Anmeldeformular PS5 Fussball Turnier</a></li>
                 <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
                 <li><a href="impressum.html" class="nav-link">Impressum</a></li>
             </ul>
@@ -78,7 +84,7 @@
                 <h3 class="news-title">News/Aktuelles</h3>
                 <div class="news-content">
                     <div class="news-item">
-                        <div class="news-icon">�</div>
+                        <div class="news-icon">🎮</div>
                         <h4 class="news-headline">1. Moonlight Lounge PS5 Fussball Turnier</h4>
                         <p class="news-date">23.01.2026</p>
                         <p class="news-text">EA Sports FC 26 • Startgeld 10€<br>Wanderpokal zu gewinnen!</p>
@@ -87,7 +93,7 @@
                         </a>
                     </div>
                     <div class="news-item">
-                        <div class="news-icon">�🎯</div>
+                        <div class="news-icon">🎯</div>
                         <h4 class="news-headline">2. Dart-Turnier</h4>
                         <p class="news-date">30.01.2026 • 19:30 Uhr</p>
                         <p class="news-text">Modus 501 M.O. • Einzel Gruppenphase<br>Startgeld 10€</p>
@@ -111,85 +117,130 @@
             <a href="team.html" class="mobile-dropdown-link">Team</a>
             <a href="dart.html" class="mobile-dropdown-link">Dart</a>
             <a href="reservierungsanfrage.html" class="mobile-dropdown-link">Reservierungsanfrage</a>
-            <a href="fussball-turnier-anmeldung.html" class="mobile-dropdown-link" id="turnier-mobile-link">Anmeldeformular PS5 Fussball Turnier</a>
+            <a href="fussball-turnier-anmeldung.html" class="mobile-dropdown-link active" id="turnier-mobile-link">Anmeldeformular PS5 Fussball Turnier</a>
             <a href="kontakt.html" class="mobile-dropdown-link">Kontakt</a>
             <a href="impressum.html" class="mobile-dropdown-link">Impressum</a>
         </nav>
     </div>
 
-    <!-- Main Content -->
     <main class="main-content">
-        <a href="index.html" class="mobile-back-button">← Zurück zur Startseite</a>
-        <section class="content-section">
-            <h2 class="page-title">Öffnungszeiten</h2>
+        <div class="content-wrapper">
+            <h2 class="page-title">PS5 Fußball Turnier Anmeldung</h2>
             
-            <div class="opening-hours-container">
-                <div class="hours-grid">
-                    <!-- Mittwoch -->
-                    <div class="day-card open">
-                        <div class="day-name">Mittwoch</div>
-                        <div class="hours">17:00 - 22:00 Uhr</div>
-                        <div class="status-badge restaurant">Restaurant</div>
-                    </div>
-
-                    <!-- Donnerstag -->
-                    <div class="day-card open">
-                        <div class="day-name">Donnerstag</div>
-                        <div class="hours">17:00 - 00:00 Uhr</div>
-                        <div class="status-badge mixed">Restaurant & Bar</div>
-                    </div>
-
-                    <!-- Freitag -->
-                    <div class="day-card open highlight">
-                        <div class="day-name">Freitag</div>
-                        <div class="hours">17:00 - 03:00 Uhr</div>
-                        <div class="status-badge party">Restaurant & Event</div>
-                    </div>
-
-                    <!-- Samstag -->
-                    <div class="day-card open highlight">
-                        <div class="day-name">Samstag</div>
-                        <div class="hours">17:00 - 03:00 Uhr</div>
-                        <div class="status-badge party">Restaurant & Event</div>
-                    </div>
-
-                    <!-- Sonntag -->
-                    <div class="day-card closed">
-                        <div class="day-name">Sonntag</div>
-                        <div class="hours">Geschlossen</div>
-                    </div>
-
-                    <!-- Montag -->
-                    <div class="day-card closed">
-                        <div class="day-name">Montag</div>
-                        <div class="hours">Geschlossen</div>
-                    </div>
-
-                    <!-- Dienstag -->
-                    <div class="day-card closed">
-                        <div class="day-name">Dienstag</div>
-                        <div class="hours">Geschlossen</div>
-                    </div>
-                </div>
-
-                <div class="info-box">
-                    <h3 class="info-title">Wichtige Informationen</h3>
-                    <ul class="info-list">
-                        <li><strong>17:00 - 22:00 Uhr:</strong> Restaurant-Betrieb mit klassischer deutscher Küche</li>
-                        <li><strong>Ab 22:00 Uhr:</strong> Bar & Event-Betrieb (Donnerstag - Samstag)</li>
-                        <li>Reservierungen werden empfohlen</li>
-                        <li>An Feiertagen können abweichende Öffnungszeiten gelten</li>
-                    </ul>
-                </div>
+            <div class="reservation-intro">
+                <p class="intro-main">🎮 Melde dich jetzt für unser PS5 Fußball Turnier an!</p>
+                <p class="intro-sub">EA Sports FC 26 • 23.01.2026 • Startgeld 10€ • Wanderpokal zu gewinnen!</p>
             </div>
-        </section>
+
+            <form class="reservation-form" id="tournamentForm">
+                
+                <!-- Persönliche Daten -->
+                <div class="form-section">
+                    <h3 class="form-section-title">
+                        <span class="section-icon">👤</span>
+                        <span>Deine Daten</span>
+                    </h3>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="Vorname" placeholder="Max Mustermann" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Handynummer *</label>
+                            <input type="tel" id="phone" name="Telefon" placeholder="0123 456789" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Alter *</label>
+                            <input type="number" id="age" name="Nachricht" placeholder="18" min="1" max="99" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hidden Fields für EmailJS Template -->
+                <input type="hidden" name="Nachname" value="Fussball Turnier">
+                <input type="hidden" name="email" value="turnier@moonlightlounge-spaichingen.de">
+                <input type="hidden" name="Datum" value="23.01.2026">
+                <input type="hidden" name="Uhrzeit" value="Siehe Flyer">
+                <input type="hidden" name="Gaeste" value="1 Person">
+                <input type="hidden" name="Anlass" value="PS5 Fussball Turnier">
+
+                <!-- Datenschutz & Submit -->
+                <div class="form-footer">
+                    <div class="form-checkbox-wrapper">
+                        <input type="checkbox" id="privacy" name="privacy" required>
+                        <label for="privacy">Ich habe die <a href="impressum.html">Datenschutzerklärung</a> gelesen und akzeptiere diese. *</label>
+                    </div>
+
+                    <button type="submit" class="submit-button">
+                        <span class="button-icon">🎮</span>
+                        <span>Jetzt anmelden</span>
+                    </button>
+                    
+                    <p class="form-note">* Pflichtfelder müssen ausgefüllt werden</p>
+                    <p class="form-info">📌 Du erhältst eine Bestätigung deiner Anmeldung per E-Mail oder Telefon. Startgeld 10€ wird vor Ort kassiert.</p>
+                </div>
+
+            </form>
+
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p class="copyright">© 2026 <span class="footer-moonlight">Moonlight</span> <span class="footer-lounge">Lounge</span> <span class="footer-location">Spaichingen</span></p>
+    <footer>
+        <p>&copy; 2026 Moonlight Lounge Spaichingen. Alle Rechte vorbehalten.</p>
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+        // Turnier-Anmeldeformular-Handling
+        document.getElementById('tournamentForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const submitButton = this.querySelector('.submit-button');
+            const originalButtonText = submitButton.innerHTML;
+            
+            // Button deaktivieren und Ladezustand anzeigen
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<span class="button-icon">⏳</span><span>Wird gesendet...</span>';
+            
+            // Formulardaten sammeln
+            const formData = new FormData(this);
+            const templateParams = {};
+            formData.forEach((value, key) => {
+                templateParams[key] = value;
+            });
+            
+            // E-Mail über EmailJS senden
+            emailjs.send('service_qb5enta', 'template_yee80gj', templateParams)
+                .then(function(response) {
+                    // Erfolgsmeldung
+                    submitButton.innerHTML = '<span class="button-icon">✅</span><span>Erfolgreich angemeldet!</span>';
+                    submitButton.style.background = 'linear-gradient(135deg, #00e500, #00ff00)';
+                    
+                    // Formular zurücksetzen
+                    document.getElementById('tournamentForm').reset();
+                    
+                    // Nach 3 Sekunden Button zurücksetzen
+                    setTimeout(function() {
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = originalButtonText;
+                        submitButton.style.background = '';
+                    }, 3000);
+                }, function(error) {
+                    // Fehlermeldung
+                    submitButton.innerHTML = '<span class="button-icon">❌</span><span>Fehler beim Senden</span>';
+                    submitButton.style.background = 'linear-gradient(135deg, #ff0000, #ff4444)';
+                    submitButton.disabled = false;
+                    
+                    // Nach 3 Sekunden Button zurücksetzen
+                    setTimeout(function() {
+                        submitButton.innerHTML = originalButtonText;
+                        submitButton.style.background = '';
+                    }, 3000);
+                    
+                    console.error('EmailJS Error:', error);
+                });
+        });
+    </script>
 </body>
 </html>
