@@ -12,8 +12,8 @@
         }
     </script>
     <meta charset="UTF-8">
-    <meta name="viewport"="width=device-width, initial-scale=1.0">
-    <title>PS5 Fußball Turnier Anmeldung - Moonlight Lounge Spaichingen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanzkurs Anmeldung - Moonlight Lounge Spaichingen</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,8 +59,8 @@
                 <li><a href="team.html" class="nav-link">Team</a></li>
                 <li><a href="dart.html" class="nav-link">Dart</a></li>
                 <li><a href="reservierungsanfrage.html" class="nav-link">Reservierungsanfrage</a></li>
-                <li id="turnier-nav-link"><a href="fussball-turnier-anmeldung.html" class="nav-link active">Anmeldeformular PS5 Fussball Turnier</a></li>
-                <li id="tanzkurs-nav-link"><a href="tanzkurs-anmeldung.html" class="nav-link">Anmeldeformular Tanzkurs</a></li>
+                <li id="turnier-nav-link"><a href="fussball-turnier-anmeldung.html" class="nav-link">Anmeldeformular PS5 Fussball Turnier</a></li>
+                <li id="tanzkurs-nav-link"><a href="tanzkurs-anmeldung.html" class="nav-link active">Anmeldeformular Tanzkurs</a></li>
                 <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
                 <li><a href="impressum.html" class="nav-link">Impressum</a></li>
             </ul>
@@ -123,23 +123,39 @@
             <a href="team.html" class="mobile-dropdown-link">Team</a>
             <a href="dart.html" class="mobile-dropdown-link">Dart</a>
             <a href="reservierungsanfrage.html" class="mobile-dropdown-link">Reservierungsanfrage</a>
-            <a href="fussball-turnier-anmeldung.html" class="mobile-dropdown-link active" id="turnier-mobile-link">Anmeldeformular PS5 Fussball Turnier</a>
-            <a href="tanzkurs-anmeldung.html" class="mobile-dropdown-link" id="tanzkurs-mobile-link">Anmeldeformular Tanzkurs</a>
+            <a href="fussball-turnier-anmeldung.html" class="mobile-dropdown-link" id="turnier-mobile-link">Anmeldeformular PS5 Fussball Turnier</a>
+            <a href="tanzkurs-anmeldung.html" class="mobile-dropdown-link active" id="tanzkurs-mobile-link">Anmeldeformular Tanzkurs</a>
             <a href="kontakt.html" class="mobile-dropdown-link">Kontakt</a>
             <a href="impressum.html" class="mobile-dropdown-link">Impressum</a>
         </nav>
     </div>
 
+    <!-- Main Content -->
     <main class="main-content">
-        <div class="content-wrapper">
-            <h2 class="page-title">PS5 Fußball Turnier Anmeldung</h2>
+        <a href="index.html" class="mobile-back-button">← Zurück zur Startseite</a>
+        <div class="reservation-container">
+            <h2 class="reservation-title" style="font-size: 2.5rem; margin-top: 3rem;">
+                <span class="title-icon">💃</span>
+                Tanzkurs Anmeldung
+                <span class="title-icon">🕺</span>
+            </h2>
             
-            <div class="reservation-intro">
-                <p class="intro-main">🎮 Melde dich jetzt für unser PS5 Fußball Turnier an!</p>
-                <p class="intro-sub">EA Sports FC 26 • 23.01.2026 • Startgeld 10€ • Wanderpokal zu gewinnen!</p>
+            <div class="reservation-subtitle">
+                <p>🎓 Salsa & Bachata Tanzkurs beim Ritmo Latino Event</p>
+                <p>📅 21. März 2026 | 🏫 In Kooperation mit dance4you Tuttlingen-Möhringen</p>
             </div>
 
-            <form class="reservation-form" id="tournamentForm">
+            <div class="info-box" style="background: linear-gradient(135deg, rgba(255,0,255,0.1), rgba(255,255,0,0.1)); border-left: 4px solid var(--neon-pink); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
+                <h3 style="color: var(--neon-pink); margin-bottom: 1rem;">📋 Kurs-Informationen</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">⏰ <strong>Einsteiger:</strong> 19:00 - 19:45 Uhr</li>
+                    <li style="margin-bottom: 0.5rem;">⏰ <strong>Fortgeschrittene:</strong> 19:45 - 20:30 Uhr</li>
+                    <li style="margin-bottom: 0.5rem;">💰 <strong>Tanzkurs:</strong> 10€ | <strong>Eintritt Event:</strong> 5€</li>
+                    <li style="margin-bottom: 0.5rem;">📍 <strong>Tanzschule:</strong> dance4you Tuttlingen-Möhringen</li>
+                </ul>
+            </div>
+
+            <form class="reservation-form" id="tanzkursForm">
                 
                 <!-- Persönliche Daten -->
                 <div class="form-section">
@@ -154,23 +170,48 @@
                             <input type="text" id="name" name="Vorname" placeholder="Max Mustermann" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Handynummer *</label>
+                            <label for="phone">Telefonnummer *</label>
                             <input type="tel" id="phone" name="Telefon" placeholder="0123 456789" required>
                         </div>
                         <div class="form-group">
-                            <label for="age">Alter *</label>
-                            <input type="number" id="age" name="Nachricht" placeholder="18" min="1" max="99" required>
+                            <label for="email">E-Mail-Adresse *</label>
+                            <input type="email" id="email" name="email" placeholder="max@beispiel.de" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kurs-Details -->
+                <div class="form-section">
+                    <h3 class="form-section-title">
+                        <span class="section-icon">🎓</span>
+                        <span>Kurs-Details</span>
+                    </h3>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="persons">Anzahl Personen *</label>
+                            <select id="persons" name="Gaeste" required>
+                                <option value="">Bitte wählen</option>
+                                <option value="1 Person">1 Person</option>
+                                <option value="2 Personen">2 Personen</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="level">Kurs-Level *</label>
+                            <select id="level" name="Nachricht" required>
+                                <option value="">Bitte wählen</option>
+                                <option value="Einsteiger (19:00 - 19:45 Uhr)">Einsteiger (19:00 - 19:45 Uhr)</option>
+                                <option value="Fortgeschrittene (19:45 - 20:30 Uhr)">Fortgeschrittene (19:45 - 20:30 Uhr)</option>
+                            </select>
                         </div>
                     </div>
                 </div>
 
                 <!-- Hidden Fields für EmailJS Template -->
-                <input type="hidden" name="Nachname" value="Fussball Turnier">
-                <input type="hidden" name="email" value="turnier@moonlightlounge-spaichingen.de">
-                <input type="hidden" name="Datum" value="23.01.2026">
-                <input type="hidden" name="Uhrzeit" value="Siehe Flyer">
-                <input type="hidden" name="Gaeste" value="1 Person">
-                <input type="hidden" name="Anlass" value="PS5 Fussball Turnier">
+                <input type="hidden" name="Nachname" value="Tanzkurs">
+                <input type="hidden" name="Datum" value="21.03.2026">
+                <input type="hidden" name="Uhrzeit" value="19:00 - 20:30 Uhr">
+                <input type="hidden" name="Anlass" value="Salsa & Bachata Tanzkurs - Ritmo Latino">
 
                 <!-- Datenschutz & Submit -->
                 <div class="form-footer">
@@ -180,12 +221,12 @@
                     </div>
 
                     <button type="submit" class="submit-button">
-                        <span class="button-icon">🎮</span>
+                        <span class="button-icon">💃</span>
                         <span>Jetzt anmelden</span>
                     </button>
                     
                     <p class="form-note">* Pflichtfelder müssen ausgefüllt werden</p>
-                    <p class="form-info">📌 Du erhältst eine Bestätigung deiner Anmeldung per E-Mail oder Telefon. Startgeld 10€ wird vor Ort kassiert.</p>
+                    <p class="form-info">📌 Du erhältst eine Bestätigung deiner Anmeldung per E-Mail oder Telefon. Kursgebühr 10€ wird vor Ort kassiert.</p>
                 </div>
 
             </form>
@@ -199,8 +240,8 @@
 
     <script src="js/main.js"></script>
     <script>
-        // Turnier-Anmeldeformular-Handling
-        document.getElementById('tournamentForm').addEventListener('submit', function(event) {
+        // Tanzkurs-Anmeldeformular-Handling
+        document.getElementById('tanzkursForm').addEventListener('submit', function(event) {
             event.preventDefault();
             
             const submitButton = this.querySelector('.submit-button');
@@ -225,7 +266,7 @@
                     submitButton.style.background = 'linear-gradient(135deg, #00e500, #00ff00)';
                     
                     // Formular zurücksetzen
-                    document.getElementById('tournamentForm').reset();
+                    document.getElementById('tanzkursForm').reset();
                     
                     // Nach 3 Sekunden Button zurücksetzen
                     setTimeout(function() {

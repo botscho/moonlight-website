@@ -54,6 +54,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Automatisches Verstecken des Turnier-Links
     hideTournamentLinkAfterEvent();
+    
+    // Automatisches Verstecken des Tanzkurs-Links
+    hideTanzkursLinkAfterEvent();
 });
 
 // Funktion zum Verstecken des Turnier-Links nach dem Event (24.01.2026 um 1 Uhr)
@@ -72,6 +75,32 @@ function hideTournamentLinkAfterEvent() {
         const mobileLink = document.getElementById('turnier-mobile-link');
         if (mobileLink) {
             mobileLink.style.display = 'none';
+        }
+    }
+}
+
+// Funktion zum Verstecken des Tanzkurs-Links nach dem Event (22.03.2026 um 1 Uhr)
+function hideTanzkursLinkAfterEvent() {
+    const now = new Date();
+    const hideDate = new Date('2026-03-22T01:00:00'); // 22.03.2026, 01:00 Uhr
+    
+    if (now >= hideDate) {
+        // Sidebar Link verstecken
+        const sidebarLink = document.getElementById('tanzkurs-nav-link');
+        if (sidebarLink) {
+            sidebarLink.style.display = 'none';
+        }
+        
+        // Mobile Link verstecken
+        const mobileLink = document.getElementById('tanzkurs-mobile-link');
+        if (mobileLink) {
+            mobileLink.style.display = 'none';
+        }
+        
+        // Event Link verstecken
+        const eventLink = document.getElementById('tanzkurs-event-link');
+        if (eventLink) {
+            eventLink.style.display = 'none';
         }
     }
 }
