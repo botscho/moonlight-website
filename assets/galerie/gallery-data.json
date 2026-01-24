@@ -1,0 +1,1173 @@
+{
+  "generated": "2026-01-24T14:08:18.939872",
+  "total_items": 129,
+  "images": [
+    {
+      "filename": "bar-interior.jpg",
+      "path": "assets/galerie/bar-interior.jpg",
+      "size": 182354,
+      "modified": "2026-01-04T21:01:05.732832",
+      "date": null,
+      "title": "Bar Interior",
+      "type": "image"
+    },
+    {
+      "filename": "country-night-guests.jpg",
+      "path": "assets/galerie/country-night-guests.jpg",
+      "size": 78281,
+      "modified": "2026-01-04T21:02:27.888018",
+      "date": null,
+      "title": "Country Night Guests",
+      "type": "image"
+    },
+    {
+      "filename": "group-restaurant.jpg",
+      "path": "assets/galerie/group-restaurant.jpg",
+      "size": 55674,
+      "modified": "2026-01-04T21:05:53.960614",
+      "date": null,
+      "title": "Group Restaurant",
+      "type": "image"
+    },
+    {
+      "filename": "guests-table.jpg",
+      "path": "assets/galerie/guests-table.jpg",
+      "size": 53174,
+      "modified": "2026-01-04T21:06:04.238503",
+      "date": null,
+      "title": "Guests Table",
+      "type": "image"
+    },
+    {
+      "filename": "party-dancing.jpg",
+      "path": "assets/galerie/party-dancing.jpg",
+      "size": 57084,
+      "modified": "2026-01-04T21:02:47.898167",
+      "date": null,
+      "title": "Party Dancing",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.08 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.08 (1).jpeg",
+      "size": 229315,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.08 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.08 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.08 (2).jpeg",
+      "size": 157247,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.08 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.08 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.08 (3).jpeg",
+      "size": 143758,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.08 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.08.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.08.jpeg",
+      "size": 349904,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.08",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09 (1).jpeg",
+      "size": 188159,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09 (2).jpeg",
+      "size": 211441,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09 (3).jpeg",
+      "size": 152768,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09 (4).jpeg",
+      "size": 166773,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09 (5).jpeg",
+      "size": 178159,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09 (6).jpeg",
+      "size": 74928,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.09.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.09.jpeg",
+      "size": 475155,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.09",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.10 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.10 (1).jpeg",
+      "size": 91165,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.10 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.10 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.10 (2).jpeg",
+      "size": 163512,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.10 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.10 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.10 (3).jpeg",
+      "size": 252553,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.10 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.10 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.10 (4).jpeg",
+      "size": 550952,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.10 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11 (1).jpeg",
+      "size": 378201,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11 (2).jpeg",
+      "size": 246207,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11 (3).jpeg",
+      "size": 161948,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11 (4).jpeg",
+      "size": 439898,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11 (5).jpeg",
+      "size": 270805,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11 (6).jpeg",
+      "size": 248244,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.50.11.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.50.11.jpeg",
+      "size": 483555,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.50.11",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.04 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.04 (1).jpeg",
+      "size": 141827,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.04 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.04.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.04.jpeg",
+      "size": 109543,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.04",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.05 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.05 (1).jpeg",
+      "size": 264997,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.05 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.05 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.05 (2).jpeg",
+      "size": 233463,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.05 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.05.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.05.jpeg",
+      "size": 179761,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.05",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.06.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.06.jpeg",
+      "size": 309935,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.06",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.09.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.09.jpeg",
+      "size": 190066,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.09",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.14.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.14.jpeg",
+      "size": 378250,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.14",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.15.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.15.jpeg",
+      "size": 180858,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.15",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.17 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.17 (1).jpeg",
+      "size": 292425,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.17 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.17.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.17.jpeg",
+      "size": 354318,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.17",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.18.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.18.jpeg",
+      "size": 181460,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.18",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.19 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.19 (1).jpeg",
+      "size": 264990,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.19 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.19 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.19 (2).jpeg",
+      "size": 194852,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.19 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.19.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.19.jpeg",
+      "size": 159478,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.19",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.20 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.20 (1).jpeg",
+      "size": 289875,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.20 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.20 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.20 (2).jpeg",
+      "size": 304446,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.20 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.20.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.20.jpeg",
+      "size": 265727,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.20",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.21 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.21 (1).jpeg",
+      "size": 303514,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.21 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.21 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.21 (2).jpeg",
+      "size": 175528,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.21 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.21 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.21 (3).jpeg",
+      "size": 201345,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.21 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.21 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.21 (4).jpeg",
+      "size": 210531,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.21 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.21.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.21.jpeg",
+      "size": 320637,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.21",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.22 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.22 (1).jpeg",
+      "size": 173816,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.22 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.22 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.22 (2).jpeg",
+      "size": 181298,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.22 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.22.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.22.jpeg",
+      "size": 283534,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.22",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.23 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.23 (1).jpeg",
+      "size": 247467,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.23 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.23.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.23.jpeg",
+      "size": 179879,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.23",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.24 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.24 (1).jpeg",
+      "size": 228441,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.24 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.24 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.24 (2).jpeg",
+      "size": 231042,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.24 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.24.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.24.jpeg",
+      "size": 179739,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.24",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (1).jpeg",
+      "size": 230811,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (2).jpeg",
+      "size": 190605,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (3).jpeg",
+      "size": 203437,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (4).jpeg",
+      "size": 223868,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (5).jpeg",
+      "size": 285746,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (6).jpeg",
+      "size": 184021,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27 (7).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27 (7).jpeg",
+      "size": 214805,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27 (7)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.27.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.27.jpeg",
+      "size": 215923,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.27",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.30 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.30 (1).jpeg",
+      "size": 221676,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.30 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.30 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.30 (2).jpeg",
+      "size": 290432,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.30 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.30.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.30.jpeg",
+      "size": 94967,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.30",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.36 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.36 (1).jpeg",
+      "size": 207470,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.36 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.36 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.36 (2).jpeg",
+      "size": 226221,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.36 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.36.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.36.jpeg",
+      "size": 205296,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.36",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37 (1).jpeg",
+      "size": 189347,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37 (2).jpeg",
+      "size": 167396,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37 (3).jpeg",
+      "size": 168244,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37 (4).jpeg",
+      "size": 170791,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37 (5).jpeg",
+      "size": 195684,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37 (6).jpeg",
+      "size": 211245,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.37.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.37.jpeg",
+      "size": 205847,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.37",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.38 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.38 (1).jpeg",
+      "size": 253486,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.38 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.38 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.38 (2).jpeg",
+      "size": 154615,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.38 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.38 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.38 (3).jpeg",
+      "size": 158945,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.38 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.38 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.38 (4).jpeg",
+      "size": 203392,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.38 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.38 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.38 (5).jpeg",
+      "size": 345064,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.38 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.52.38.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.52.38.jpeg",
+      "size": 263438,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.52.38",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (1).jpeg",
+      "size": 178159,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (2).jpeg",
+      "size": 74928,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (3).jpeg",
+      "size": 91165,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (4).jpeg",
+      "size": 163512,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (5).jpeg",
+      "size": 252553,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (6).jpeg",
+      "size": 161948,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (7).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (7).jpeg",
+      "size": 439898,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (7)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (8).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (8).jpeg",
+      "size": 378201,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (8)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.26 (9).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.26 (9).jpeg",
+      "size": 270805,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.26 (9)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (1).jpeg",
+      "size": 148929,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (2).jpeg",
+      "size": 212040,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (3).jpeg",
+      "size": 213801,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (4).jpeg",
+      "size": 352641,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (5).jpeg",
+      "size": 153603,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (6).jpeg",
+      "size": 139438,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27 (7).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27 (7).jpeg",
+      "size": 178099,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27 (7)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.27.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.27.jpeg",
+      "size": 340150,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.27",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (1).jpeg",
+      "size": 96359,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (2).jpeg",
+      "size": 133371,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (3).jpeg",
+      "size": 91648,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (4).jpeg",
+      "size": 241639,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (5).jpeg",
+      "size": 249036,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (6).jpeg",
+      "size": 266821,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28 (7).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28 (7).jpeg",
+      "size": 262187,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28 (7)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.28.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.28.jpeg",
+      "size": 93892,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.28",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (1).jpeg",
+      "size": 274956,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (2).jpeg",
+      "size": 523762,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (3).jpeg",
+      "size": 263524,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (4).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (4).jpeg",
+      "size": 138150,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (4)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (5).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (5).jpeg",
+      "size": 254664,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (5)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (6).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (6).jpeg",
+      "size": 385783,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (6)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (7).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (7).jpeg",
+      "size": 245321,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (7)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (8).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (8).jpeg",
+      "size": 274292,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (8)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29 (9).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29 (9).jpeg",
+      "size": 281975,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29 (9)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.29.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.29.jpeg",
+      "size": 245419,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.29",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.30 (1).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.30 (1).jpeg",
+      "size": 325462,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.30 (1)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.30 (2).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.30 (2).jpeg",
+      "size": 400627,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.30 (2)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.30 (3).jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.30 (3).jpeg",
+      "size": 146771,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.30 (3)",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-04 at 22.54.30.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-04 at 22.54.30.jpeg",
+      "size": 326780,
+      "modified": "2026-01-05T18:51:36",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 04 At 22.54.30",
+      "type": "image"
+    },
+    {
+      "filename": "WhatsApp Image 2026-01-24 at 13.18.04.jpeg",
+      "path": "assets/galerie/WhatsApp Image 2026-01-24 at 13.18.04.jpeg",
+      "size": 271790,
+      "modified": "2026-01-24T13:48:11.988199",
+      "date": null,
+      "title": "Whatsapp Image 2026 01 24 At 13.18.04",
+      "type": "image"
+    }
+  ],
+  "videos": [
+    {
+      "filename": "Video1.mp4",
+      "path": "assets/galerie/Video1.mp4",
+      "size": 3873592,
+      "modified": "2026-01-04T23:04:06.699993",
+      "date": null,
+      "title": "Video1",
+      "type": "video"
+    },
+    {
+      "filename": "WhatsApp Video 2026-01-04 at 22.52.34.mp4",
+      "path": "assets/galerie/WhatsApp Video 2026-01-04 at 22.52.34.mp4",
+      "size": 9333268,
+      "modified": "2026-01-05T19:10:22.006494",
+      "date": null,
+      "title": "Whatsapp Video 2026 01 04 At 22.52.34",
+      "type": "video"
+    },
+    {
+      "filename": "WhatsApp Video 2026-01-04 at 22.52.38.mp4",
+      "path": "assets/galerie/WhatsApp Video 2026-01-04 at 22.52.38.mp4",
+      "size": 10995654,
+      "modified": "2026-01-05T19:09:55.585292",
+      "date": null,
+      "title": "Whatsapp Video 2026 01 04 At 22.52.38",
+      "type": "video"
+    },
+    {
+      "filename": "WhatsApp Video 2026-01-04 at 22.54.25.mp4",
+      "path": "assets/galerie/WhatsApp Video 2026-01-04 at 22.54.25.mp4",
+      "size": 8379650,
+      "modified": "2026-01-05T19:09:17.668872",
+      "date": null,
+      "title": "Whatsapp Video 2026 01 04 At 22.54.25",
+      "type": "video"
+    }
+  ],
+  "stats": {
+    "image_count": 125,
+    "video_count": 4
+  }
+}
