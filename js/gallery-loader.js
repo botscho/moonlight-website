@@ -60,8 +60,8 @@ function createGalleryItem(item, index) {
             <img src="${item.path}" alt="Moonlight Lounge - ${item.filename}" loading="lazy">
             <div class="gallery-overlay">
                 <div class="gallery-caption">
-                    <h3>${item.title}</h3>
-                    <p>${item.date || 'Moonlight Lounge'}</p>
+                    <h3>Moonlight Lounge</h3>
+                    <p>Einzigartige Momente</p>
                 </div>
             </div>
         `;
@@ -74,8 +74,8 @@ function createGalleryItem(item, index) {
             </video>
             <div class="gallery-overlay">
                 <div class="gallery-caption">
-                    <h3>${item.title}</h3>
-                    <p>${item.date || 'Moonlight Lounge'}</p>
+                    <h3>Moonlight Lounge</h3>
+                    <p>Einzigartige Momente</p>
                 </div>
             </div>
             <div class="video-play-icon">▶</div>
